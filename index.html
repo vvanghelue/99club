@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>99 club &nbsp;👊</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  
+  <div class="wrapper intro">
+    <img class="logo" src="images/logo.svg"/>
+    <h1>
+      <span class="main">Freelances</span>,<br />
+      il est temps de prendre votre liberté
+    </h1>
+
+    <img class="down" src="images/down.svg"/>
+  </div>
+
+  <div class="wrapper detail">
+    <div class="item">
+      <img src="images/bank.svg"/>
+      <div class=right>
+        <h1>Banque zéro frais, zéro euros par mois</h1>
+        <p>Un compte "pro" coute une dizaine d'euros par mois dans les banques traditionnelles et il n'y a aucune raison à ça.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/letter.svg"/>
+      <div class=right>
+        <h1>Domiciliation numérique</h1>
+        <p>Votre courrier à une seule adresse, réceptionné, numérisé. Pratique si vous êtes nomade !</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/calculator.svg" class="calculator"/>
+      <div class=right>
+        <h1>Compta gérée à 100%</h1>
+        <p>Frais, bilan, déclaration URSAFF, votre comptabilité gérée automatiquement</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="wrapper contact">
+    <div class="background"></div>
+    <div class="content">
+      <h1>Rejoindre le club</h1>
+      <div class="come-on">Venez nous voir !</div>
+      <div class="map hover-effect" onclick="voirMap()">
+        <div class="map-img"></div>
+        <div class="open-in-maps">ouvrir dans Google Maps</div>
+      </div>
+      <div class="or">ou</div>
+      <div class="button-test hover-effect" onclick="testerGratuitement()">Faire un tour gratuit</div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    var voirMap = () => {
+      keen.recordEvent('action', {
+        'session-id' : localStorage.getItem('session-id'),
+        'type': 'voirMap',
+        'user-agent': navigator.userAgent,
+        'url': location.href
+      });
+      alert('bientôt ;)');
+    }
+
+    var testerGratuitement = () => {
+      keen.recordEvent('action', {
+        'session-id' : localStorage.getItem('session-id'),
+        'type': 'testerGratuitement',
+        'user-agent': navigator.userAgent,
+        'url': location.href
+      });
+      alert('bientôt ;)');
+    }
+  </script>
+
+
+
+  <div class="cli">
+    <img class="caret" src="images/cli_caret.svg"/>
+    <span class="command"></span>
+    <img class="underscore" src="images/cli_underscore.svg"/>
+  </div>
+
+  <script type="text/javascript">
+
+  var entryAnimation = () => {
+    document.querySelectorAll('body > .wrapper').forEach((wrapperEl) => {
+      wrapperEl.style.opacity = '0';
+    });
+
+    var fadeAllWrappers = (() => {
+      setTimeout(() => {
+        document.querySelectorAll('body > .wrapper').forEach((wrapperEl) => {
+          wrapperEl.style.transition = '2s ease';
+        }) 
+        document.querySelectorAll('body > .wrapper').forEach((wrapperEl) => {
+          wrapperEl.style.opacity = '1';
+        }) 
+      }, 1500);
+    });
+
+    var textCommand = "soyez libres";
+    var currentLetter = 0;
+    var displayNextLetter = () => {
+      setTimeout(function () {
+        document.querySelector('body > .cli > span.command').innerHTML += textCommand[currentLetter];
+        if (textCommand[currentLetter + 1]) {
+          displayNextLetter(currentLetter++);
+        } else {
+          setTimeout(() => {
+            document.querySelector('body > .cli').style.display = 'none';
+            fadeAllWrappers();
+          }, 2000)
+        }
+      }, 100 + Math.random() * 400);
+    };
+    displayNextLetter();
+  };
+
+  document.addEventListener('DOMContentLoaded', () => {
+    if (location.href.indexOf('local') === -1) {
+      entryAnimation();
+    }
+
+    window.addEventListener('scroll', (e) => {
+      document.querySelector('body > .wrapper.intro img.down')
+        .style.opacity = (300 - document.querySelector('body').scrollTop) / 300;
+    });
+
+    document.querySelector('body > .wrapper.intro img.down').addEventListener('click', () => {
+      var heightToScroll = document.querySelector('.wrapper.intro').scrollHeight + 80;
+      var secondsToScroll = 1.7;
+
+      document.body.style.transition = `${secondsToScroll}s ease`;
+      document.body.style.transform = `translate(0, -${heightToScroll}px)`;
+
+      setTimeout(() => {
+        document.body.style.transition = '0s ease';
+        document.body.style.transform = 'translate(0, -0)';
+        document.body.scrollTop = heightToScroll;
+      }, secondsToScroll * 1000);
+    });
+
+  });
+  </script>
+  <script type="text/javascript">
+
+  if (!localStorage.getItem('session-id')) {
+    localStorage.setItem('session-id', Math.round(Math.random() * 1000000000))
+  }
+
+  ;
+  !function(name,path,ctx){
+    var latest,prev=name!=='Keen'&&window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName('head')[0],s=document.createElement('script'),w=window,loaded;s.onload=s.onerror=s.onreadystatechange=function(){if((s.readyState&&!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.parentNode.insertBefore(s,h)}}
+  }('KeenAsync','https://d26b395fwzu5fz.cloudfront.net/keen-tracking-1.1.3.min.js',this);
+
+  KeenAsync.ready(function(){
+    // Configure a client instance
+    // This is your actual Project ID and Write Key
+    var keen = window.keen = new KeenAsync({
+      projectId: '5915c7783d5e15299e649452',
+      writeKey: '681B9644CF59016B69BF56AAB46D46DF7AC69ED7DB857982359692B1E13AE6F9C67E0795366A416BC4D3E2A4927E5433605EE4D34C25AE48DC4A68CA37ED9097EDBB220DAB2DE615835493E88777C2DDE9996428F4C5A84E26FC0CBA8E9B10A6'
+    });
+
+    // Record an event
+    keen.recordEvent('action', {
+      'session-id' : localStorage.getItem('session-id'),
+      'type': 'displayHome',
+      'user-agent': navigator.userAgent,
+      'url': location.href
+    });
+  });
+</script>
+</body>
+</html>

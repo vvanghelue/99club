@@ -1,0 +1,12 @@
+<svg width="53" height="97" viewBox="0 0 53 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>cli_caret</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-178 1168)" figma:type="canvas">
+<g id="cli_caret" figma:type="vector">
+<use xlink:href="#path0_stroke" transform="translate(181 -1165)" fill="#6FCF97"/>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 45 44.4981L 47.5281 46.9186L 49.9098 44.431L 47.461 42.0094L 45 44.4981ZM -2.46096 2.48871L 42.539 46.9869L 47.461 42.0094L 2.46096 -2.48871L -2.46096 2.48871ZM 42.4719 42.0777L -2.52813 89.0795L 2.52813 93.9205L 47.5281 46.9186L 42.4719 42.0777Z"/>
+</defs>
+</svg>

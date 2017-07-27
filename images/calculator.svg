@@ -1,0 +1,110 @@
+<svg width="50" height="66" viewBox="0 0 50 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>calculator</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(33 -1023)" figma:type="canvas">
+<g id="calculator" figma:type="frame">
+<g id="Group" figma:type="frame">
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(-33 1023)" fill="#6FCF97"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(-33 1023)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(-33 1023)" fill="#2C2424"/>
+</g>
+</g>
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(-27.6809 1071.4)" fill="#6FCF97"/>
+<mask id="mask1_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(-27.6809 1071.4)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(-27.6809 1071.4)" fill="#2C2424"/>
+</g>
+</g>
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(-13.8511 1071.4)" fill="#6FCF97"/>
+<mask id="mask2_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(-13.8511 1071.4)"/>
+</mask>
+<g mask="url(#mask2_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(-13.8511 1071.4)" fill="#2C2424"/>
+</g>
+</g>
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path4_fill" transform="translate(-0.0212746 1057.1)" fill="#6FCF97"/>
+<mask id="mask3_outline_ins">
+<use xlink:href="#path4_fill" fill="white" transform="translate(-0.0212746 1057.1)"/>
+</mask>
+<g mask="url(#mask3_outline_ins)">
+<use xlink:href="#path5_stroke_2x" transform="translate(-0.0212746 1057.1)" fill="#2C2424"/>
+</g>
+</g>
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(-27.6809 1057.1)" fill="#6FCF97"/>
+<mask id="mask4_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(-27.6809 1057.1)"/>
+</mask>
+<g mask="url(#mask4_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(-27.6809 1057.1)" fill="#2C2424"/>
+</g>
+</g>
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(-13.8511 1057.1)" fill="#6FCF97"/>
+<mask id="mask5_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(-13.8511 1057.1)"/>
+</mask>
+<g mask="url(#mask5_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(-13.8511 1057.1)" fill="#2C2424"/>
+</g>
+</g>
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(-27.6809 1042.8)" fill="#6FCF97"/>
+<mask id="mask6_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(-27.6809 1042.8)"/>
+</mask>
+<g mask="url(#mask6_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(-27.6809 1042.8)" fill="#2C2424"/>
+</g>
+</g>
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(-13.8511 1042.8)" fill="#6FCF97"/>
+<mask id="mask7_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(-13.8511 1042.8)"/>
+</mask>
+<g mask="url(#mask7_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(-13.8511 1042.8)" fill="#2C2424"/>
+</g>
+</g>
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(-0.0212746 1042.8)" fill="#6FCF97"/>
+<mask id="mask8_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(-0.0212746 1042.8)"/>
+</mask>
+<g mask="url(#mask8_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(-0.0212746 1042.8)" fill="#2C2424"/>
+</g>
+</g>
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path6_fill" transform="translate(-27.6809 1028.5)" fill="#6FCF97"/>
+<mask id="mask9_outline_ins">
+<use xlink:href="#path6_fill" fill="white" transform="translate(-27.6809 1028.5)"/>
+</mask>
+<g mask="url(#mask9_outline_ins)">
+<use xlink:href="#path7_stroke_2x" transform="translate(-27.6809 1028.5)" fill="#2C2424"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 46.9 0L 3.1 0C 1.39043 0 0 1.4388 0 3.2054L 0 62.7946C 0 64.5612 1.39043 66 3.1 66L 46.9 66C 48.6096 66 50 64.5612 50 62.7946L 50 3.2054C 50 1.4388 48.6096 0 46.9 0ZM 47.8723 62.7946C 47.8723 63.349 47.4362 63.8 46.9 63.8L 3.1 63.8C 2.56383 63.8 2.12766 63.349 2.12766 62.7946L 2.12766 3.2054C 2.12766 2.651 2.56383 2.2 3.1 2.2L 46.9 2.2C 47.4362 2.2 47.8723 2.651 47.8723 3.2054L 47.8723 62.7946Z"/>
+<path id="path1_stroke_2x" d="M 46.9 -0.35L 3.1 -0.35L 3.1 0.35L 46.9 0.35L 46.9 -0.35ZM 3.1 -0.35C 1.18611 -0.35 -0.35 1.2567 -0.35 3.2054L 0.35 3.2054C 0.35 1.6209 1.59474 0.35 3.1 0.35L 3.1 -0.35ZM -0.35 3.2054L -0.35 62.7946L 0.35 62.7946L 0.35 3.2054L -0.35 3.2054ZM -0.35 62.7946C -0.35 64.7433 1.18611 66.35 3.1 66.35L 3.1 65.65C 1.59474 65.65 0.35 64.3791 0.35 62.7946L -0.35 62.7946ZM 3.1 66.35L 46.9 66.35L 46.9 65.65L 3.1 65.65L 3.1 66.35ZM 46.9 66.35C 48.8139 66.35 50.35 64.7433 50.35 62.7946L 49.65 62.7946C 49.65 64.3791 48.4053 65.65 46.9 65.65L 46.9 66.35ZM 50.35 62.7946L 50.35 3.2054L 49.65 3.2054L 49.65 62.7946L 50.35 62.7946ZM 50.35 3.2054C 50.35 1.2567 48.8139 -0.35 46.9 -0.35L 46.9 0.35C 48.4053 0.35 49.65 1.6209 49.65 3.2054L 50.35 3.2054ZM 47.5223 62.7946C 47.5223 63.1668 47.2319 63.45 46.9 63.45L 46.9 64.15C 47.6404 64.15 48.2223 63.5312 48.2223 62.7946L 47.5223 62.7946ZM 46.9 63.45L 3.1 63.45L 3.1 64.15L 46.9 64.15L 46.9 63.45ZM 3.1 63.45C 2.76807 63.45 2.47766 63.1668 2.47766 62.7946L 1.77766 62.7946C 1.77766 63.5312 2.35959 64.15 3.1 64.15L 3.1 63.45ZM 2.47766 62.7946L 2.47766 3.2054L 1.77766 3.2054L 1.77766 62.7946L 2.47766 62.7946ZM 2.47766 3.2054C 2.47766 2.83318 2.76807 2.55 3.1 2.55L 3.1 1.85C 2.35959 1.85 1.77766 2.46882 1.77766 3.2054L 2.47766 3.2054ZM 3.1 2.55L 46.9 2.55L 46.9 1.85L 3.1 1.85L 3.1 2.55ZM 46.9 2.55C 47.2319 2.55 47.5223 2.83318 47.5223 3.2054L 48.2223 3.2054C 48.2223 2.46882 47.6404 1.85 46.9 1.85L 46.9 2.55ZM 47.5223 3.2054L 47.5223 62.7946L 48.2223 62.7946L 48.2223 3.2054L 47.5223 3.2054Z"/>
+<path id="path2_fill" d="M 0 12.1L 11.7021 12.1L 11.7021 0L 0 0L 0 12.1ZM 2.12766 2.2L 9.57447 2.2L 9.57447 9.9L 2.12766 9.9L 2.12766 2.2Z"/>
+<path id="path3_stroke_2x" d="M 0 12.1L -0.35 12.1L -0.35 12.45L 0 12.45L 0 12.1ZM 11.7021 12.1L 11.7021 12.45L 12.0521 12.45L 12.0521 12.1L 11.7021 12.1ZM 11.7021 0L 12.0521 0L 12.0521 -0.35L 11.7021 -0.35L 11.7021 0ZM 0 0L 0 -0.35L -0.35 -0.35L -0.35 0L 0 0ZM 2.12766 2.2L 2.12766 1.85L 1.77766 1.85L 1.77766 2.2L 2.12766 2.2ZM 9.57447 2.2L 9.92447 2.2L 9.92447 1.85L 9.57447 1.85L 9.57447 2.2ZM 9.57447 9.9L 9.57447 10.25L 9.92447 10.25L 9.92447 9.9L 9.57447 9.9ZM 2.12766 9.9L 1.77766 9.9L 1.77766 10.25L 2.12766 10.25L 2.12766 9.9ZM 0 12.45L 11.7021 12.45L 11.7021 11.75L 0 11.75L 0 12.45ZM 12.0521 12.1L 12.0521 0L 11.3521 0L 11.3521 12.1L 12.0521 12.1ZM 11.7021 -0.35L 0 -0.35L 0 0.35L 11.7021 0.35L 11.7021 -0.35ZM -0.35 0L -0.35 12.1L 0.35 12.1L 0.35 0L -0.35 0ZM 2.12766 2.55L 9.57447 2.55L 9.57447 1.85L 2.12766 1.85L 2.12766 2.55ZM 9.22447 2.2L 9.22447 9.9L 9.92447 9.9L 9.92447 2.2L 9.22447 2.2ZM 9.57447 9.55L 2.12766 9.55L 2.12766 10.25L 9.57447 10.25L 9.57447 9.55ZM 2.47766 9.9L 2.47766 2.2L 1.77766 2.2L 1.77766 9.9L 2.47766 9.9Z"/>
+<path id="path4_fill" d="M 0 26.4L 11.7021 26.4L 11.7021 0L 0 0L 0 26.4ZM 2.12766 2.2L 9.57447 2.2L 9.57447 24.2L 2.12766 24.2L 2.12766 2.2Z"/>
+<path id="path5_stroke_2x" d="M 0 26.4L -0.35 26.4L -0.35 26.75L 0 26.75L 0 26.4ZM 11.7021 26.4L 11.7021 26.75L 12.0521 26.75L 12.0521 26.4L 11.7021 26.4ZM 11.7021 0L 12.0521 0L 12.0521 -0.35L 11.7021 -0.35L 11.7021 0ZM 0 0L 0 -0.35L -0.35 -0.35L -0.35 0L 0 0ZM 2.12766 2.2L 2.12766 1.85L 1.77766 1.85L 1.77766 2.2L 2.12766 2.2ZM 9.57447 2.2L 9.92447 2.2L 9.92447 1.85L 9.57447 1.85L 9.57447 2.2ZM 9.57447 24.2L 9.57447 24.55L 9.92447 24.55L 9.92447 24.2L 9.57447 24.2ZM 2.12766 24.2L 1.77766 24.2L 1.77766 24.55L 2.12766 24.55L 2.12766 24.2ZM 0 26.75L 11.7021 26.75L 11.7021 26.05L 0 26.05L 0 26.75ZM 12.0521 26.4L 12.0521 0L 11.3521 0L 11.3521 26.4L 12.0521 26.4ZM 11.7021 -0.35L 0 -0.35L 0 0.35L 11.7021 0.35L 11.7021 -0.35ZM -0.35 0L -0.35 26.4L 0.35 26.4L 0.35 0L -0.35 0ZM 2.12766 2.55L 9.57447 2.55L 9.57447 1.85L 2.12766 1.85L 2.12766 2.55ZM 9.22447 2.2L 9.22447 24.2L 9.92447 24.2L 9.92447 2.2L 9.22447 2.2ZM 9.57447 23.85L 2.12766 23.85L 2.12766 24.55L 9.57447 24.55L 9.57447 23.85ZM 2.47766 24.2L 2.47766 2.2L 1.77766 2.2L 1.77766 24.2L 2.47766 24.2Z"/>
+<path id="path6_fill" d="M 0 11L 39.3617 11L 39.3617 0L 0 0L 0 11ZM 2.12766 2.2L 37.234 2.2L 37.234 8.8L 2.12766 8.8L 2.12766 2.2Z"/>
+<path id="path7_stroke_2x" d="M 0 11L -0.35 11L -0.35 11.35L 0 11.35L 0 11ZM 39.3617 11L 39.3617 11.35L 39.7117 11.35L 39.7117 11L 39.3617 11ZM 39.3617 0L 39.7117 0L 39.7117 -0.35L 39.3617 -0.35L 39.3617 0ZM 0 0L 0 -0.35L -0.35 -0.35L -0.35 0L 0 0ZM 2.12766 2.2L 2.12766 1.85L 1.77766 1.85L 1.77766 2.2L 2.12766 2.2ZM 37.234 2.2L 37.584 2.2L 37.584 1.85L 37.234 1.85L 37.234 2.2ZM 37.234 8.8L 37.234 9.15L 37.584 9.15L 37.584 8.8L 37.234 8.8ZM 2.12766 8.8L 1.77766 8.8L 1.77766 9.15L 2.12766 9.15L 2.12766 8.8ZM 0 11.35L 39.3617 11.35L 39.3617 10.65L 0 10.65L 0 11.35ZM 39.7117 11L 39.7117 0L 39.0117 0L 39.0117 11L 39.7117 11ZM 39.3617 -0.35L 0 -0.35L 0 0.35L 39.3617 0.35L 39.3617 -0.35ZM -0.35 0L -0.35 11L 0.35 11L 0.35 0L -0.35 0ZM 2.12766 2.55L 37.234 2.55L 37.234 1.85L 2.12766 1.85L 2.12766 2.55ZM 36.884 2.2L 36.884 8.8L 37.584 8.8L 37.584 2.2L 36.884 2.2ZM 37.234 8.45L 2.12766 8.45L 2.12766 9.15L 37.234 9.15L 37.234 8.45ZM 2.47766 8.8L 2.47766 2.2L 1.77766 2.2L 1.77766 8.8L 2.47766 8.8Z"/>
+</defs>
+</svg>

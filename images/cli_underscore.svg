@@ -1,0 +1,12 @@
+<svg width="83" height="8" viewBox="0 0 83 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>cli_underscore</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-256 1079)" figma:type="canvas">
+<g id="cli_underscore" figma:type="vector">
+<use xlink:href="#path0_stroke" transform="translate(256.5 -1075)" fill="#6FCF97"/>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 0 3.5L 82 3.5L 82 -3.5L 0 -3.5L 0 3.5Z"/>
+</defs>
+</svg>
